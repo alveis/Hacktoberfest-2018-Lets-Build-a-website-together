@@ -81,11 +81,19 @@ p {
   .page-wrap {
     max-width: 800px;
     margin: 0 auto;
-    padding: 16px;
+
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+  background: #f3f3f3;
 }
